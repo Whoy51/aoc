@@ -1,8 +1,13 @@
+package day1;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class D1P1 {
+    /*
+    Completed in two attempts
+    */
     public static void main(String[] args) throws FileNotFoundException {
         File input = new File("C:\\Users\\9258830\\IdeaProjects\\aoc\\src\\resources\\day1.txt");
         Scanner scan = new Scanner(input);
